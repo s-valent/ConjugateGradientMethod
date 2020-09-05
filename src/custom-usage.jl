@@ -1,7 +1,7 @@
 import LinearAlgebra
 
 """
-    ConjugateGradientMethod.checkdims(x, A, b)
+    GradientMethods.checkdims(x, A, b)
 
 checks if arguments have correct dimensions for cg method.
 """
@@ -20,7 +20,7 @@ checks if arguments have correct dimensions for cg method.
 end
 
 """
-    ConjugateGradientMethod.zerox(length)
+    GradientMethods.zerox(length)
 
 used in `cg` function (not `cg!`).
 """
@@ -30,7 +30,7 @@ used in `cg` function (not `cg!`).
 end
 
 """
-    ConjugateGradientMethod.dot(x, y) = LinearAlgebra.dot(x, y)
+    GradientMethods.dot(x, y) = LinearAlgebra.dot(x, y)
 
 dot product function, used in cg method.
 """
@@ -39,14 +39,14 @@ dot product function, used in cg method.
 const ⋅ = dot
 
 """
-    ConjugateGradientMethod.mul!(y, A, x) = LinearAlgebra.mul!(y, A, x)
+    GradientMethods.mul!(y, A, x) = LinearAlgebra.mul!(y, A, x)
 
 matrix-vector multilpication function, used in cg method.
 """
 @inline mul!(y, A, x) = LinearAlgebra.mul!(y, A, x)
 
 """
-    ConjugateGradientMethod.close!(x) = nothing
+    GradientMethods.close!(x) = nothing
 
 function that is called after arrays inside cg method are 
 no longer needed.

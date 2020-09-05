@@ -1,4 +1,4 @@
-module ConjugateGradientMethod
+module GradientMethods
 
 export cg, cg!, @cg
 
