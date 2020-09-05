@@ -1,0 +1,7 @@
+name = "ConjugateGradientMethod"
+uuid = "823845fe-9a97-4ead-ad7d-52628efea333"
+authors = ["s-valent <v.shinkarev@icloud.com>"]
+version = "0.1.1"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
