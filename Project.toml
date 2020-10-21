@@ -1,7 +1,7 @@
 name = "GradientMethods"
 uuid = "5b99f244-f0f2-4726-ae95-e2da6d7785de"
 authors = ["s-valent <valent.shinkarev@gmail.com>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
